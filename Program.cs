@@ -1,12 +1,11 @@
 ﻿using ExampleDecoratorPattern.Interfaces;
 using System;
-using System.Runtime.ConstrainedExecution;
 
 namespace ExampleDecoratorPattern
 {
-    class Program
+    internal class Program
     {
-        static void Main(string[] args)
+        private static void Main(string[] args)
         {
             IPizza pizza = new Pizza();
             IPizza queijoDecorator = new QueijoDecorator(pizza);

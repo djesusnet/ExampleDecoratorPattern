@@ -2,7 +2,6 @@
 
 namespace ExampleDecoratorPattern
 {
-
     //Concrete Decorator
     public class CebolaDecorator : PizzaDecorator
     {
